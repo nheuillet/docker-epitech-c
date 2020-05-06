@@ -21,6 +21,7 @@ clang \
 clang-analyzer \
 cmake \
 doxygen \
+find \
 gcc-c++ \
 gcc \
 gcovr \
