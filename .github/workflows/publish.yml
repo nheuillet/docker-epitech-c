@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@89167c6 #latest commit at the moment of the action creation. did not use master because of security issues
+      uses: elgohr/Publish-Docker-Github-Action@master #trying to find the cause behind faile docker registry push
       with:
         name: docker-epitech-c
         username: ${{ secrets.DOCKER_USERNAME }}
