@@ -20,6 +20,7 @@ bash \
 clang \
 clang-analyzer \
 cmake \
+cppcheck \
 doxygen \
 findutils \
 gcc-c++ \
