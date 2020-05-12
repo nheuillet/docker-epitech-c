@@ -41,5 +41,5 @@ RUN cp -r criterion-v2.3.2/lib/* /usr/local/lib/
 RUN ldconfig
 RUN rm -rf /criterion-v2.3.2
 
-WORKDIR /app
+WORKDIR /
 
