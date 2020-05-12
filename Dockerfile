@@ -22,6 +22,7 @@ clang-analyzer \
 cmake \
 cppcheck \
 doxygen \
+expat \
 findutils \
 gcc-c++ \
 gcc \
